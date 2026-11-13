@@ -1,0 +1,199 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <title>Seblak Prasmanan | Beranda</title>
+  <style>
+    * { scroll-behavior: smooth; }
+    body { font-family: 'DM Sans', sans-serif; background: #faf7f2; color: #271b1c; }
+    .judul { font-family: 'Playfair Display', serif; }
+    .maroon { color: #641f2b; }
+    .bg-maroon { background: #641f2b; }
+    .garis { background: linear-gradient(90deg, #641f2b, #d7a879); }
+  </style>
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <header class="sticky top-0 z-50 border-b border-[#eadfd5] bg-[#faf7f2]/95 backdrop-blur">
+    <nav class="mx-auto flex max-w-6xl items-center justify-between px-5 py-4">
+      <a href="index.html" class="flex items-center gap-3">
+        <div class="flex h-10 w-10 items-center justify-center rounded-xl bg-[#641f2b] text-lg text-white">S</div>
+        <div>
+          <p class="judul text-lg font-bold leading-tight text-[#641f2b]">Seblak Prasmanan</p>
+          <p class="text-[10px] tracking-[2px] text-[#987d72]">RASA PILIHANMU</p>
+        </div>
+      </a>
+
+      <div class="flex items-center gap-6 text-sm font-semibold">
+        <a href="index.html" class="text-[#641f2b]">Beranda</a>
+        <a href="menu.html" class="text-[#594747] transition hover:text-[#641f2b]">Menu</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="mx-auto grid max-w-6xl items-center gap-10 px-5 py-14 md:grid-cols-2 md:py-20">
+      <div>
+        <span class="inline-flex rounded-full border border-[#e7d5c8] bg-[#f2e8df] px-4 py-2 text-xs font-bold tracking-wider text-[#641f2b]">
+          SEBLAK PRASMANAN
+        </span>
+
+        <h1 class="judul mt-6 text-4xl font-bold leading-tight text-[#351d20] md:text-5xl">
+          Racik Sesukamu,<br>
+          <span class="text-[#8b3542]">Pedas Sesukamu!</span>
+        </h1>
+
+        <p class="mt-5 max-w-lg text-sm leading-7 text-[#786765] md:text-base">
+          Nikmati pengalaman makan seblak yang berbeda. Pilih sendiri aneka
+          topping favoritmu, tentukan tingkat kepedasan, lalu racik menjadi
+          semangkuk seblak sesuai seleramu.
+        </p>
+
+        <div class="mt-8 flex flex-wrap gap-3">
+          <a href="menu.html" class="rounded-full bg-[#641f2b] px-6 py-3 text-sm font-bold text-white shadow-md transition hover:bg-[#481620]">
+            Lihat Menu
+          </a>
+          <a href="#tentang" class="rounded-full border border-[#cdbab0] px-6 py-3 text-sm font-bold text-[#641f2b] transition hover:bg-[#f1e7df]">
+            Tentang Kami
+          </a>
+        </div>
+
+        <div class="mt-9 flex gap-8 border-t border-[#e7dcd2] pt-6">
+          <div>
+            <p class="judul text-2xl font-bold text-[#641f2b]">30+</p>
+            <p class="mt-1 text-xs text-[#8b7771]">Pilihan topping</p>
+          </div>
+          <div>
+            <p class="judul text-2xl font-bold text-[#641f2b]">0–5</p>
+            <p class="mt-1 text-xs text-[#8b7771]">Level pedas</p>
+          </div>
+          <div>
+            <p class="judul text-2xl font-bold text-[#641f2b]">Fresh</p>
+            <p class="mt-1 text-xs text-[#8b7771]">Diracik langsung</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="relative mx-auto w-full max-w-md">
+        <div class="absolute -inset-3 rotate-3 rounded-[2rem] bg-[#e9d8ca]"></div>
+        <img
+          src="img/seblak.jpg"
+          alt="Hidangan mi pedas"
+          class="relative h-[340px] w-full rounded-[1.7rem] object-cover shadow-xl md:h-[390px]"
+        >
+        <div class="absolute -bottom-5 -left-4 rounded-2xl bg-white px-5 py-4 shadow-lg">
+          <p class="text-xs text-[#8b7771]">Pilihan rasa</p>
+          <p class="judul text-lg font-bold text-[#641f2b]">Sesuai Selera</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- TENTANG -->
+    <section id="tentang" class="border-y border-[#eee3d9] bg-white py-16">
+      <div class="mx-auto max-w-4xl px-5 text-center">
+        <p class="text-xs font-bold tracking-[3px] text-[#9b6c5d]">CERITA KAMI</p>
+        <h2 class="judul mt-3 text-3xl font-bold text-[#351d20]">Lebih dari Sekadar Seblak</h2>
+        <div class="garis mx-auto mt-4 h-1 w-16 rounded-full"></div>
+        <p class="mx-auto mt-6 max-w-3xl text-sm leading-8 text-[#786765]">
+          Seblak Prasmanan hadir untuk kamu yang suka menentukan rasa sendiri.
+          Mulai dari kerupuk, aneka pasta, frozen food, sayuran, hingga topping
+          favorit lainnya. Semua bisa kamu pilih dan racik sesuai keinginan.
+          Mau kuah gurih, pedas ringan, atau pedas maksimal? Kamu yang tentukan!
+        </p>
+      </div>
+    </section>
+
+    <!-- KEUNGGULAN -->
+    <section class="mx-auto max-w-6xl px-5 py-16">
+      <div class="text-center">
+        <p class="text-xs font-bold tracking-[3px] text-[#9b6c5d]">KENAPA KAMI?</p>
+        <h2 class="judul mt-3 text-3xl font-bold text-[#351d20]">Nikmati Sesuai Selera</h2>
+      </div>
+
+      <div class="mt-9 grid gap-4 sm:grid-cols-3">
+        <div class="rounded-2xl border border-[#eadfd5] bg-white p-6 text-center">
+          <div class="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-[#f3e8df] text-xl">🥣</div>
+          <h3 class="mt-4 font-bold text-[#641f2b]">Bebas Meracik</h3>
+          <p class="mt-2 text-sm leading-6 text-[#806f69]">Pilih topping sendiri sesuai selera dan keinginanmu.</p>
+        </div>
+
+        <div class="rounded-2xl border border-[#eadfd5] bg-white p-6 text-center">
+          <div class="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-[#f3e8df] text-xl">🌶️</div>
+          <h3 class="mt-4 font-bold text-[#641f2b]">Atur Level Pedas</h3>
+          <p class="mt-2 text-sm leading-6 text-[#806f69]">Tentukan tingkat kepedasan dari ringan hingga pedas.</p>
+        </div>
+
+        <div class="rounded-2xl border border-[#eadfd5] bg-white p-6 text-center">
+          <div class="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-[#f3e8df] text-xl">✨</div>
+          <h3 class="mt-4 font-bold text-[#641f2b]">Banyak Pilihan</h3>
+          <p class="mt-2 text-sm leading-6 text-[#806f69]">Beragam topping dan minuman untuk melengkapi santapanmu.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="px-5 pb-16">
+      <div class="mx-auto max-w-6xl overflow-hidden rounded-3xl bg-[#641f2b] px-6 py-10 text-center text-white md:px-12">
+        <p class="text-xs font-bold tracking-[3px] text-[#e9c8b4]">SAATNYA MERACIK!</p>
+        <h2 class="judul mt-3 text-3xl font-bold">Sudah Siap Menentukan Favoritmu?</h2>
+        <p class="mx-auto mt-3 max-w-xl text-sm leading-7 text-[#f1ded6]">
+          Jelajahi pilihan topping dan minuman yang tersedia. Racik semangkuk
+          seblak yang paling cocok dengan seleramu.
+        </p>
+        <a href="menu.html" class="mt-6 inline-block rounded-full bg-[#f8f3eb] px-7 py-3 text-sm font-bold text-[#641f2b] transition hover:bg-white">
+          Jelajahi Menu
+        </a>
+      </div>
+    </section>
+
+    <!-- INFORMASI -->
+    <section id="informasi" class="border-t border-[#eadfd5] bg-[#f2ebe3] py-14">
+      <div class="mx-auto max-w-6xl px-5">
+        <div class="text-center">
+          <p class="text-xs font-bold tracking-[3px] text-[#9b6c5d]">HUBUNGI KAMI</p>
+          <h2 class="judul mt-3 text-3xl font-bold text-[#351d20]">Informasi & Kontak</h2>
+          <p class="mt-2 text-sm text-[#806f69]">Temukan informasi dan kabari kami untuk pertanyaan atau pemesanan.</p>
+        </div>
+
+        <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          <div class="rounded-2xl bg-white p-5">
+            <p class="text-xl">📍</p>
+            <h3 class="mt-3 font-bold text-[#641f2b]">Alamat</h3>
+            <p class="mt-2 text-sm leading-6 text-[#806f69]">jln.merdeka, RT 0 RW 0</p>
+          </div>
+          <div class="rounded-2xl bg-white p-5">
+            <p class="text-xl">🕒</p>
+            <h3 class="mt-3 font-bold text-[#641f2b]">Jam Operasional</h3>
+            <p class="mt-2 text-sm leading-6 text-[#806f69]">Setiap hari<br>09.50 – 21.00 WIB</p>
+          </div>
+          <div class="rounded-2xl bg-white p-5">
+            <p class="text-xl">📱</p>
+            <h3 class="mt-3 font-bold text-[#641f2b]">WhatsApp</h3>
+            <p class="mt-2 text-sm leading-6 text-[#806f69]">08xxxxxxxxxx<br>Ganti dengan nomor usaha.</p>
+          </div>
+          <div class="rounded-2xl bg-white p-5">
+            <p class="text-xl">📷</p>
+            <h3 class="mt-3 font-bold text-[#641f2b]">Instagram</h3>
+            <p class="mt-2 text-sm leading-6 text-[#806f69]">@seblakprasmanan<br>Ganti dengan akun usaha.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-[#241719] px-5 py-6 text-center text-xs text-[#d8c6bd]">
+    <p class="judul text-lg font-bold text-white">Seblak Prasmanan</p>
+    <p class="mt-2">Racik Sesukamu, Pedas Sesukamu!</p>
+    <p class="mt-4 text-[#a9958d]">© 2026 Seblak Prasmanan. Semua Hak Dilindungi.</p>
+  </footer>
+</body>
+</html>
