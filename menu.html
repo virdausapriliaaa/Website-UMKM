@@ -1,0 +1,329 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <title>Seblak Prasmanan | Menu</title>
+  <style>
+    * { scroll-behavior: smooth; }
+    body { font-family: 'DM Sans', sans-serif; background: #faf7f2; color: #271b1c; }
+    .judul { font-family: 'Playfair Display', serif; }
+    .bg-maroon { background: #641f2b; }
+  </style>
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <header class="sticky top-0 z-50 border-b border-[#eadfd5] bg-[#faf7f2]/95 backdrop-blur">
+    <nav class="mx-auto flex max-w-6xl items-center justify-between px-5 py-4">
+      <a href="index.html" class="flex items-center gap-3">
+        <div class="flex h-10 w-10 items-center justify-center rounded-xl bg-[#641f2b] text-lg text-white">S</div>
+        <div>
+          <p class="judul text-lg font-bold leading-tight text-[#641f2b]">Seblak Prasmanan</p>
+          <p class="text-[10px] tracking-[2px] text-[#987d72]">RASA PILIHANMU</p>
+        </div>
+      </a>
+
+      <div class="flex items-center gap-6 text-sm font-semibold">
+        <a href="index.html" class="text-[#594747] transition hover:text-[#641f2b]">Beranda</a>
+        <a href="menu.html" class="text-[#641f2b]">Menu</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- JUDUL MENU -->
+    <section class="bg-[#f0e6dc] px-5 py-12 text-center">
+      <p class="text-xs font-bold tracking-[3px] text-[#9b6c5d]">PILIHAN MENU</p>
+      <h1 class="judul mt-3 text-4xl font-bold text-[#351d20]">Racik Menu Favoritmu</h1>
+      <p class="mx-auto mt-3 max-w-xl text-sm leading-7 text-[#806f69]">
+        Pilih berbagai topping yang tersedia, kombinasikan sesukamu,
+        dan nikmati seblak dengan rasa pilihanmu sendiri.
+      </p>
+    </section>
+
+    <!-- DAFTAR TOPPING -->
+    <section class="mx-auto max-w-6xl px-5 py-12">
+      <div class="mb-8 flex flex-wrap items-end justify-between gap-3">
+        <div>
+          <p class="text-xs font-bold tracking-[3px] text-[#9b6c5d]">ANEKA TOPPING</p>
+          <h2 class="judul mt-2 text-3xl font-bold text-[#351d20]">Pilihan Isian Seblak</h2>
+        </div>
+        <p class="text-xs text-[#8b7771]">Pilih dan kombinasikan sesuai selera</p>
+      </div>
+
+      <div class="grid gap-4 md:grid-cols-2">
+
+        <!-- KATEGORI 1 -->
+        <div class="rounded-2xl border border-[#eadfd5] bg-white p-5">
+          <div class="flex items-center gap-3 border-b border-[#eee5dd] pb-3">
+            <span class="flex h-9 w-9 items-center justify-center rounded-xl bg-[#f4e9df]">🍜</span>
+            <div>
+              <p class="text-[10px] font-bold tracking-[2px] text-[#a27b6b]">01</p>
+              <h3 class="font-bold text-[#641f2b]">Aneka Kerupuk & Pasta</h3>
+            </div>
+          </div>
+          <div class="mt-4 space-y-3 text-sm leading-6 text-[#75645f]">
+            <p><span class="font-bold text-[#3e2a2b]">Kerupuk:</span> Kerupuk bawang, kerupuk oranye/merah, kerupuk kuning, kerupuk udang, kerupuk mawar, kerupuk poleng (warna-warni).</p>
+            <p><span class="font-bold text-[#3e2a2b]">Pasta:</span> Makaroni kuning/cokelat, mi spiral, penne.</p>
+            <p><span class="font-bold text-[#3e2a2b]">Mi & Karbohidrat:</span> Mi kuning, mi instan, mi keriting, kwetiau.</p>
+          </div>
+        </div>
+
+        <!-- KATEGORI 2 -->
+        <div class="rounded-2xl border border-[#eadfd5] bg-white p-5">
+          <div class="flex items-center gap-3 border-b border-[#eee5dd] pb-3">
+            <span class="flex h-9 w-9 items-center justify-center rounded-xl bg-[#f4e9df]">🍢</span>
+            <div>
+              <p class="text-[10px] font-bold tracking-[2px] text-[#a27b6b]">02</p>
+              <h3 class="font-bold text-[#641f2b]">Frozen Food & Olahan Seafood</h3>
+            </div>
+          </div>
+          <div class="mt-4 space-y-3 text-sm leading-6 text-[#75645f]">
+            <p><span class="font-bold text-[#3e2a2b]">Bakso:</span> Bakso sapi, bakso ayam, bakso ikan, bakso aci.</p>
+            <p><span class="font-bold text-[#3e2a2b]">Sosis & Olahan Daging:</span> Sosis merah, sosis sapi, sosis ayam, sosis bakar mini.</p>
+            <p><span class="font-bold text-[#3e2a2b]">Seafood & Lainnya:</span> Chikuwa, crab stick, otak-otak, dumpling keju, chicken dumpling, odeng pedas/original, tahu bakso, stik ikan rasa udang.</p>
+          </div>
+        </div>
+
+        <!-- KATEGORI 3 -->
+        <div class="rounded-2xl border border-[#eadfd5] bg-white p-5">
+          <div class="flex items-center gap-3 border-b border-[#eee5dd] pb-3">
+            <span class="flex h-9 w-9 items-center justify-center rounded-xl bg-[#f4e9df]">🍗</span>
+            <div>
+              <p class="text-[10px] font-bold tracking-[2px] text-[#a27b6b]">03</p>
+              <h3 class="font-bold text-[#641f2b]">Ayam & Tulang-Tulangan</h3>
+            </div>
+          </div>
+          <div class="mt-4 text-sm leading-7 text-[#75645f]">
+            <ul class="list-inside list-disc space-y-1 marker:text-[#9b4c54]">
+              <li>Ceker ayam</li>
+              <li>Tulang ayam / balungan</li>
+              <li>Sayap atau potongan ayam</li>
+              <li>Kulit ayam</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- KATEGORI 4 -->
+        <div class="rounded-2xl border border-[#eadfd5] bg-white p-5">
+          <div class="flex items-center gap-3 border-b border-[#eee5dd] pb-3">
+            <span class="flex h-9 w-9 items-center justify-center rounded-xl bg-[#f4e9df]">🥟</span>
+            <div>
+              <p class="text-[10px] font-bold tracking-[2px] text-[#a27b6b]">04</p>
+              <h3 class="font-bold text-[#641f2b]">Pelengkap Kering & Renyah</h3>
+            </div>
+          </div>
+          <div class="mt-4 text-sm leading-7 text-[#75645f]">
+            <ul class="list-inside list-disc space-y-1 marker:text-[#9b4c54]">
+              <li>Cuanki lidah</li>
+              <li>Siomay kering</li>
+              <li>Batagor kering</li>
+              <li>Pilus cikur (kencur)</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- KATEGORI 5 -->
+        <div class="rounded-2xl border border-[#eadfd5] bg-white p-5">
+          <div class="flex items-center gap-3 border-b border-[#eee5dd] pb-3">
+            <span class="flex h-9 w-9 items-center justify-center rounded-xl bg-[#f4e9df]">🥬</span>
+            <div>
+              <p class="text-[10px] font-bold tracking-[2px] text-[#a27b6b]">05</p>
+              <h3 class="font-bold text-[#641f2b]">Sayuran & Jamur</h3>
+            </div>
+          </div>
+          <div class="mt-4 space-y-3 text-sm leading-6 text-[#75645f]">
+            <p><span class="font-bold text-[#3e2a2b]">Sayuran:</span> Sawi hijau (caisim), sawi putih, pakcoy, kangkung, kol/kubis, taoge.</p>
+            <p><span class="font-bold text-[#3e2a2b]">Jamur:</span> Jamur enoki, jamur tiram, jamur kuping.</p>
+          </div>
+        </div>
+
+        <!-- KATEGORI 6 -->
+        <div class="rounded-2xl border border-[#eadfd5] bg-white p-5">
+          <div class="flex items-center gap-3 border-b border-[#eee5dd] pb-3">
+            <span class="flex h-9 w-9 items-center justify-center rounded-xl bg-[#f4e9df]">🧀</span>
+            <div>
+              <p class="text-[10px] font-bold tracking-[2px] text-[#a27b6b]">06</p>
+              <h3 class="font-bold text-[#641f2b]">Topping Tambahan & Modern</h3>
+            </div>
+          </div>
+          <div class="mt-4 text-sm leading-7 text-[#75645f]">
+            <ul class="list-inside list-disc space-y-1 marker:text-[#9b4c54]">
+              <li>Telur ayam</li>
+              <li>Telur puyuh</li>
+              <li>Keju parut</li>
+              <li>Keju mozzarella</li>
+              <li>Daun bawang</li>
+              <li>Bawang goreng</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LEVEL PEDAS -->
+    <section class="border-y border-[#eadfd5] bg-[#f2ebe3] px-5 py-12">
+      <div class="mx-auto max-w-5xl text-center">
+        <p class="text-xs font-bold tracking-[3px] text-[#9b6c5d]">TENTUKAN RASAMU</p>
+        <h2 class="judul mt-2 text-3xl font-bold text-[#351d20]">Pilih Level Pedas</h2>
+        <p class="mt-2 text-sm text-[#806f69]">Sesuaikan rasa pedas dengan seleramu.</p>
+
+        <div class="mt-7 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-6">
+          <div class="rounded-xl bg-white p-4">
+            <p class="text-xl">😊</p>
+            <p class="mt-2 font-bold text-[#641f2b]">Level 0</p>
+            <p class="mt-1 text-xs text-[#806f69]">Tidak Pedas</p>
+          </div>
+          <div class="rounded-xl bg-white p-4">
+            <p class="text-xl">🌶️</p>
+            <p class="mt-2 font-bold text-[#641f2b]">Level 1</p>
+            <p class="mt-1 text-xs text-[#806f69]">Ringan</p>
+          </div>
+          <div class="rounded-xl bg-white p-4">
+            <p class="text-xl">🌶️🌶️</p>
+            <p class="mt-2 font-bold text-[#641f2b]">Level 2</p>
+            <p class="mt-1 text-xs text-[#806f69]">Sedang</p>
+          </div>
+          <div class="rounded-xl bg-white p-4">
+            <p class="text-xl">🌶️🌶️🌶️</p>
+            <p class="mt-2 font-bold text-[#641f2b]">Level 3</p>
+            <p class="mt-1 text-xs text-[#806f69]">Pedas</p>
+          </div>
+          <div class="rounded-xl bg-white p-4">
+            <p class="text-xl">🔥</p>
+            <p class="mt-2 font-bold text-[#641f2b]">Level 4</p>
+            <p class="mt-1 text-xs text-[#806f69]">Sangat Pedas</p>
+          </div>
+          <div class="rounded-xl bg-white p-4">
+            <p class="text-xl">🔥🔥</p>
+            <p class="mt-2 font-bold text-[#641f2b]">Level 5</p>
+            <p class="mt-1 text-xs text-[#806f69]">Ekstra Pedas</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MINUMAN -->
+    <section class="mx-auto max-w-6xl px-5 py-14">
+      <div class="text-center">
+        <p class="text-xs font-bold tracking-[3px] text-[#9b6c5d]">TEMAN MAKAN SEBLAK</p>
+        <h2 class="judul mt-2 text-3xl font-bold text-[#351d20]">Pilihan Minuman</h2>
+        <p class="mt-2 text-sm text-[#806f69]">Lengkapi hidanganmu dengan minuman favorit.</p>
+      </div>
+
+      <div class="mt-8 grid gap-5 sm:grid-cols-3">
+        <div class="overflow-hidden rounded-2xl border border-[#eadfd5] bg-white">
+          <img
+            src="img/varian rasa.jpg"
+            alt="Minuman dingin aneka rasa"
+            class="h-44 w-full object-cover"
+          >
+          <div class="p-5">
+            <p class="text-[10px] font-bold tracking-[2px] text-[#a27b6b]">01</p>
+            <h3 class="judul mt-1 text-xl font-bold text-[#641f2b]">Varian Rasa</h3>
+            <p class="mt-2 text-sm leading-6 text-[#806f69]">Pilihan minuman dengan aneka rasa segar.</p>
+          </div>
+        </div>
+
+        <div class="overflow-hidden rounded-2xl border border-[#eadfd5] bg-white">
+          <img
+            src="img/es teh.jpg"
+            alt="Es teh segar"
+            class="h-44 w-full object-cover"
+          >
+          <div class="p-5">
+            <p class="text-[10px] font-bold tracking-[2px] text-[#a27b6b]">02</p>
+            <h3 class="judul mt-1 text-xl font-bold text-[#641f2b]">Es Teh</h3>
+            <p class="mt-2 text-sm leading-6 text-[#806f69]">Teh segar yang cocok dinikmati bersama seblak.</p>
+          </div>
+        </div>
+
+        <div class="overflow-hidden rounded-2xl border border-[#eadfd5] bg-white">
+          <img
+            src="img/pop ice.png"
+            alt="Minuman es warna-warni"
+            class="h-44 w-full object-cover"
+          >
+          <div class="p-5">
+            <p class="text-[10px] font-bold tracking-[2px] text-[#a27b6b]">03</p>
+            <h3 class="judul mt-1 text-xl font-bold text-[#641f2b]">Pop Ice</h3>
+            <p class="mt-2 text-sm leading-6 text-[#806f69]">Minuman es dengan pilihan rasa yang nikmat.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CARA PEMESANAN -->
+    <section class="px-5 pb-14">
+      <div class="mx-auto max-w-6xl rounded-3xl bg-[#641f2b] px-6 py-9 text-center text-white md:px-12">
+        <p class="text-xs font-bold tracking-[3px] text-[#e9c8b4]">MUDAH DAN MENYENANGKAN</p>
+        <h2 class="judul mt-2 text-3xl font-bold">Cara Menikmati Seblak</h2>
+        <div class="mt-7 grid gap-6 text-sm sm:grid-cols-3">
+          <div>
+            <span class="mx-auto flex h-9 w-9 items-center justify-center rounded-full bg-white font-bold text-[#641f2b]">1</span>
+            <h3 class="mt-3 font-bold">Pilih Topping</h3>
+            <p class="mt-1 text-[#f1ded6]">Tentukan isian seblak favoritmu.</p>
+          </div>
+          <div>
+            <span class="mx-auto flex h-9 w-9 items-center justify-center rounded-full bg-white font-bold text-[#641f2b]">2</span>
+            <h3 class="mt-3 font-bold">Tentukan Level</h3>
+            <p class="mt-1 text-[#f1ded6]">Pilih tingkat pedas sesuai selera.</p>
+          </div>
+          <div>
+            <span class="mx-auto flex h-9 w-9 items-center justify-center rounded-full bg-white font-bold text-[#641f2b]">3</span>
+            <h3 class="mt-3 font-bold">Nikmati Sajian</h3>
+            <p class="mt-1 text-[#f1ded6]">Seblak racikanmu siap dinikmati.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INFORMASI -->
+    <section id="informasi" class="border-t border-[#eadfd5] bg-[#f2ebe3] py-14">
+      <div class="mx-auto max-w-6xl px-5">
+        <div class="text-center">
+          <p class="text-xs font-bold tracking-[3px] text-[#9b6c5d]">HUBUNGI KAMI</p>
+          <h2 class="judul mt-3 text-3xl font-bold text-[#351d20]">Informasi & Kontak</h2>
+          <p class="mt-2 text-sm text-[#806f69]">Kami siap menyambut dan melayani pilihan seblak favoritmu.</p>
+        </div>
+
+        <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          <div class="rounded-2xl bg-white p-5">
+            <p class="text-xl">📍</p>
+            <h3 class="mt-3 font-bold text-[#641f2b]">Alamat</h3>
+            <p class="mt-2 text-sm leading-6 text-[#806f69]">Isi alamat lengkap lokasi usaha kamu di sini.</p>
+          </div>
+          <div class="rounded-2xl bg-white p-5">
+            <p class="text-xl">🕒</p>
+            <h3 class="mt-3 font-bold text-[#641f2b]">Jam Operasional</h3>
+            <p class="mt-2 text-sm leading-6 text-[#806f69]">Setiap hari<br>10.00 – 21.00 WIB</p>
+          </div>
+          <div class="rounded-2xl bg-white p-5">
+            <p class="text-xl">📱</p>
+            <h3 class="mt-3 font-bold text-[#641f2b]">WhatsApp</h3>
+            <p class="mt-2 text-sm leading-6 text-[#806f69]">08xxxxxxxxxx<br>Ganti dengan nomor usaha.</p>
+          </div>
+          <div class="rounded-2xl bg-white p-5">
+            <p class="text-xl">📷</p>
+            <h3 class="mt-3 font-bold text-[#641f2b]">Instagram</h3>
+            <p class="mt-2 text-sm leading-6 text-[#806f69]">@seblakprasmanan<br>Ganti dengan akun usaha.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-[#241719] px-5 py-6 text-center text-xs text-[#d8c6bd]">
+    <p class="judul text-lg font-bold text-white">Seblak Prasmanan</p>
+    <p class="mt-2">Racik Sesukamu, Pedas Sesukamu!</p>
+    <p class="mt-4 text-[#a9958d]">© 2026 Seblak Prasmanan. Semua Hak Dilindungi.</p>
+  </footer>
+</body>
+</html>
